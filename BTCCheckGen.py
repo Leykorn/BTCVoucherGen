@@ -21,10 +21,10 @@ print('☑ Работа скрипта успешно завершена: ', num
 print('⚠️ ВНИМАНИЕ: Скрипт генерирует рандомные чеки, проверять на валидность придется вручную.')
 print(' ')
 for n in range(number):
-    password =''
+    password =""
     for i in range(length):
         password += random.choice(chars)
-    print('https://t.me/BTC_CHANGE_BOT?start=b_',password)
+    print('https://t.me/BTC_CHANGE_BOT?start=c_',password)
 print(' ')
 print('➕ Все новости и обновления скрипта в нашем телеграм канале, подпишись и не пропускай новые плюшки.')
 print()
